@@ -1,0 +1,82 @@
+@font-face{
+    font-family: "UnderStation";
+    src: url("./Fonts/under_station/Under\ Station.ttf");
+}
+@font-face{
+    font-family: "SlowDex";
+    src: url("./Fonts/slowdex/Slowdex.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.s1{
+    background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/14684.png");
+}
+.s2{
+    background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/15227.png");
+}
+.s3{
+    background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/15246.png");
+}
+.s4{
+    background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/15164.png");
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+    /* margin-top: 2em; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5em;
+    font-family: "SlowDex";
+    position: fixed;
+    /* border: 2px solid white; */
+}
+
+p{
+    display: none;
+}
+
+h2{
+    display: none;
+    color:white;
+    font-variant: small-caps;
+    text-align: center;
+    /* border: 2px solid white; */
+    /* padding-top: 2.5em; */
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    white-space: nowrap;
+    font-size: 1.2em;
+    margin-right: -12em;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(to top,purple,blue);
+    border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover{
+    cursor: pointer;
+}
+::-webkit-scrollbar-track{
+    background-color: #000;
+}
